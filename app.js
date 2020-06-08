@@ -32,11 +32,33 @@ $.ajax({
   .catch((err) => console.log("err", err));
 console.log("running after ajax");
 
+// function app(projectsArr) {
+//   console.log("app-projects", projectsArr);
+//   projectsArr.forEach((project) => {
+//     let title = $("<h3>");
+//     title.text(project.title);
+//     $("body").append(title);
+//     let img = $("<img>");
+//     img.attr("src", project.image);
+//     $("body").append(img);
+//     let description = $("<p>").text(project.description);
+//     $("body").append(description);
+//     let link = $("<a>").text("Click Here").attr("href", project.url);
+//     $("body").append(link);
+//   });
+// }
+
 function app(projectsArr) {
   console.log("app-projects", projectsArr);
   projectsArr.forEach((project) => {
-    let title = $("<h3>");
-    title.text(project.title);
-    $("body").append(title);
+    let title = $("<h3>").text(project.title);
+    //$("body").append(title);
+    let img = $("<img>").attr("src", project.image);
+    //$("body").append(img);
+    let description = $("<p>").text(project.description);
+    //$("body").append(description);
+    let link = $("<a>").text("Click Here").attr("href", project.url);
+    // $("body").append(link);
+    $("body").append(title, img, description, link);
   });
 }
