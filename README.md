@@ -24,8 +24,10 @@ https://docs.google.com/spreadsheets/d/17g2XPR7udYLKwDvOmYw0IfEqXHgZtaTuWMKwoBO0
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
 
-- [Mobile]: https://imgur.com/aaBMnU5 https://imgur.com/w2GBeT2 https://imgur.com/ITnCIzI
-- [Desktop](will be sent locally)
+https://imgur.com/aaBMnU5 
+https://imgur.com/w2GBeT2 
+https://imgur.com/ITnCIzI
+
 
 
 ## Time/Priority Matrix 
@@ -46,14 +48,13 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 #### MVP (examples)
 
-- Pull data using google json api
-- Render data on page 
-- Allow user to choose favorites 
-- Save their choices in firebase
+- Pull data using google json api that allows projects to render on the page
+- Render data, info, on the page
 
 #### PostMVP 
 
-- Anything else that is not MVP
+- Create animation on the page
+- Allow people to preview their favorites
 
 ## Functional Components
 
@@ -64,14 +65,15 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Hamburger | H | 1hr | 1.5hr | -hr|
-| Project Previews | H | 3hr | -hr | -hr|
-| Regular Nav | H | H | -hr | -hr|
-| Adding Form | H | 1.5hr| -hr | -hr |
-| Other sections and flex| M | 4hr | 2hr | -hr|
-| Working with API | H | 3hrs| 2hr | -hr |
-| Responsive | H | 3hr | -hr | -hr|
-| Social Media Icons | L | 1hr | -hr | -hr|
+| Skeleton HTML | H | 3hr | NA | NA 
+| Hamburger | H | 1hr | NA | NA |
+| Project Previews | H | 3hr | NA | NA|
+| Regular Nav | H | H | NA | NA|
+| Adding Form | H | 1.5hr| NA | NA |
+| Other sections and flex| M | 4hr | NA | NA|
+| Working with API | H | 3hrs| NA | NA |
+| Responsive | H | 3hr | NA| NA|
+| Social Media Icons | L | 1hr | NA | NA|
 | Total | H | 15.5hrs| -hrs | -hrs |
 
 #### PostMVP
