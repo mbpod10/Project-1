@@ -65,7 +65,8 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Skeleton HTML | H | 3hr | NA | NA 
+| Skeleton HTML | H | 3hr | NA | NA |
+| Skeleton CSS for Mobile | H | 3hrs | NA | NA|
 | Hamburger | H | 1hr | NA | NA |
 | Project Previews | H | 3hr | NA | NA|
 | Regular Nav | H | H | NA | NA|
@@ -88,7 +89,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Total | H | 20hrs| -hrs | -hrs |
 
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project. 
+ JQuery
 
 ## Code Snippet
 
