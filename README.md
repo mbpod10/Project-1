@@ -4,8 +4,9 @@
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1| Project Description | Incomplete
-|Day 1| Wireframes / Priority Matrix / Timeline /WorkSheet | Incomplete
+|Day 1| Project Description | Complete
+|Day 1| Wireframes / Priority Matrix / Timeline /WorkSheet | Complete
+|Day 1| Get Google Sheets Responsive | Incomplete
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |Day 4| MVP & Bug Fixes | Incomplete
 |Day 5| Final Touches | Incomplete
@@ -65,6 +66,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
+| Google Sheets Projects | H | 3hrs | NA | NA|
 | Skeleton HTML | H | 3hr | NA | NA |
 | Skeleton CSS for Mobile | H | 3hrs | NA | NA|
 | Hamburger | H | 1hr | NA | NA |
