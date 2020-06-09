@@ -32,19 +32,6 @@ $.ajax({
   .catch((err) => console.log("err", err));
 console.log("running after ajax");
 
-// function app(projectsArr) {
-//   console.log("app-projects", projectsArr);
-//   projectsArr.forEach((project) => {
-//     let div = $("<div>").attr("class", "work");
-//     let title = $("<h4>").text(project.title);
-//     let img = $("<img>").attr("src", project.image);
-//     let description = $("<p>").text(project.description);
-//     let link = $("<a>").text("Click Here").attr("href", project.url);
-//     div.append(title, img, description, link);
-//     $(".work-container").append(div);
-//   });
-// }
-
 function app(projectsArr) {
   console.log("app-projects", projectsArr);
   projectsArr.forEach((project) => {
@@ -56,7 +43,10 @@ function app(projectsArr) {
     let description = $("<p>")
       .text(project.description)
       .attr("class", "card-text");
-    let link = $("<a>").text("Click Here").attr("href", project.url);
+    let link = $("<a>")
+      .text("Click Here")
+      .attr("href", project.url)
+      .attr("class", "btn btn-primary");
     div.append(title, img, description, link);
     $(".work-container").append(div);
   });

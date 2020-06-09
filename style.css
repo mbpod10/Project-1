@@ -1,5 +1,6 @@
 body {
-  background: linear-gradient(to right, #333300 10%, #ccffff 94%);
+  background-color: #33ccff;
+  /* background: linear-gradient(to right, #333300 10%, #ccffff 94%); */
 }
 
 .head-container {
@@ -58,8 +59,7 @@ section h3 {
   padding: 15px;
 }
 
-.card p,
-a {
+.card p {
   margin: 10px;
 }
 
@@ -69,7 +69,10 @@ a {
 
 .card a {
   cursor: pointer;
-  color: blue;
+  width: 125px;
+  text-align: left;
+  margin-bottom: 15px;
+  margin-left: 15px;
 }
 
 .card a:hover {
@@ -77,12 +80,28 @@ a {
   font-weight: 900;
   text-decoration: none;
 }
+.contact-me {
+  background-color: blueviolet;
+  padding-bottom: 30px;
+}
+
+/* form {
+  padding-top: 0px;
+} */
+
+.form-group {
+  margin: 30px;
+}
+#comment-section.form-group {
+  margin-bottom: 30px;
+}
 
 .copyright {
   color: white;
 }
 .bottom {
-  background: linear-gradient(to bottom, #808080 2%, #000000 97%);
+  background-color: black;
+  /* background: linear-gradient(to bottom, #808080 2%, #000000 97%); */
   height: 250px;
 }
 
