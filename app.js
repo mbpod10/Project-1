@@ -44,7 +44,7 @@ function app(projectsArr) {
       .text(project.description)
       .attr("class", "card-text");
     let link = $("<a>")
-      .text("Click Here")
+      .text("Go")
       .attr("href", project.url)
       .attr("class", "btn btn-primary");
     div.append(title, img, description, link);

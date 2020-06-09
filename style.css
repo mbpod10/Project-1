@@ -1,6 +1,5 @@
 body {
-  background-color: #33ccff;
-  /* background: linear-gradient(to right, #333300 10%, #ccffff 94%); */
+  background-color: #000066;
 }
 
 .head-container {
@@ -34,15 +33,14 @@ section h3 {
 }
 
 #carouselExampleCaptions {
-  border-top: solid white 8px;
-  border-bottom: solid white 8px;
   border-radius: 15px;
 }
 
 .card {
   margin: 10px;
-  border: solid black;
-  background: linear-gradient(to right, #99ff66 6%, #ccffff 80%);
+  border: solid white 2px;
+  background: linear-gradient(to bottom, #9999ff 2%, #00ffff 62%);
+  background-color: #33ccff;
   border-radius: 10px;
 }
 
@@ -52,27 +50,27 @@ section h3 {
   font-weight: 900;
   text-align: center;
   margin-top: 15px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 .card img {
   border-radius: 10px;
-  padding: 15px;
-}
-
-.card p {
-  margin: 10px;
+  /* padding: 15px; */
 }
 
 .card p {
   font-size: 1rem;
+  margin: 10px;
 }
 
 .card a {
   cursor: pointer;
-  width: 125px;
-  text-align: left;
   margin-bottom: 15px;
   margin-left: 15px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  width: 77.17px;
 }
 
 .card a:hover {
@@ -84,6 +82,19 @@ section h3 {
   background-color: blueviolet;
   padding-bottom: 30px;
 }
+.contact-me h4 {
+  padding-top: 30px;
+  margin-left: 30px;
+}
+form .btn {
+  margin-left: 30px;
+}
+
+form .btn:hover {
+  color: red;
+  font-weight: 900;
+  text-decoration: none;
+}
 
 /* form {
   padding-top: 0px;
@@ -94,6 +105,31 @@ section h3 {
 }
 #comment-section.form-group {
   margin-bottom: 30px;
+}
+.image-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 30px;
+  align-items: center;
+}
+.image-div h4 {
+  font-size: 1rem;
+  margin-right: 10px;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+#social-media a {
+  width: 48px;
+  height: 48px;
+  text-align: right;
+}
+#social-media a img {
+  display: block;
+  width: 48px;
+  height: 48px;
+  padding: 3px;
 }
 
 .copyright {
