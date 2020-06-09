@@ -1,6 +1,5 @@
 body {
-  padding: 30px;
-  background-color: #03cafc;
+  background: linear-gradient(to right, #333300 10%, #ccffff 94%);
 }
 
 .head-container {
@@ -8,16 +7,95 @@ body {
   flex-direction: row;
   justify-content: space-between;
 }
+h1 {
+  color: white;
+  padding: 30px;
+}
+
+.navbar {
+  border: solid black 2px;
+  border-radius: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
 
 .jumbotron {
   margin-top: 30px;
+  border: solid black 2px;
+  border-radius: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
-.work-container .card img {
-  border: solid orange 5px;
+section h3 {
+  color: white;
+  padding: 30px;
+}
+
+#carouselExampleCaptions {
+  border-top: solid white 8px;
+  border-bottom: solid white 8px;
+  border-radius: 15px;
 }
 
 .card {
   margin: 10px;
-  border: solid red;
+  border: solid black;
+  background: linear-gradient(to right, #99ff66 6%, #ccffff 80%);
+  border-radius: 10px;
+}
+
+.card h5 {
+  color: red;
+  padding: 5px;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.card img {
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.card p,
+a {
+  margin: 10px;
+}
+
+.card p {
+  font-size: 1rem;
+}
+
+.card a {
+  cursor: pointer;
+  color: blue;
+}
+
+.card a:hover {
+  color: red;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.copyright {
+  color: white;
+}
+.bottom {
+  background: linear-gradient(to bottom, #808080 2%, #000000 97%);
+  height: 250px;
+}
+
+@media (min-width: 720px) {
+  .work-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .card {
+    margin: 2px;
+    margin-top: 15px;
+    width: 45%;
+  }
 }
