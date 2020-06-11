@@ -25,10 +25,12 @@ https://docs.google.com/spreadsheets/d/17g2XPR7udYLKwDvOmYw0IfEqXHgZtaTuWMKwoBO0
 ## Wireframes
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.
-
-https://imgur.com/aaBMnU5
-https://imgur.com/w2GBeT2
-https://imgur.com/ITnCIzI
+| Before (Expected Layout): |
+| https://imgur.com/aaBMnU5 |
+| https://imgur.com/w2GBeT2 |
+| https://imgur.com/ITnCIzI |
+| After: (When Introduced To Bootstrap) |
+| https://i.imgur.com/I1gSMGr.jpg |
 
 ## Time/Priority Matrix
 
