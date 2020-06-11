@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Permanent+Marker&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Courier+Prime:ital,wght@0,400;1,700&family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Changa:wght@700&family=Cinzel:wght@900&family=MedievalSharp&family=Metal+Mania&display=swap");
 body {
   background-color: black;
   font-family: "Cinzel", serif;
@@ -19,6 +19,7 @@ h1 {
   color: white;
   padding: 30px;
   font-size: 2.5rem;
+  font-family: "Cinzel", serif;
 }
 
 .head-container p {
@@ -26,25 +27,24 @@ h1 {
   font-size: 1.5rem;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
+  font-family: "Metal Mania", cursive;
 }
 
 .navbar {
   background-color: black;
   background-size: cover;
 }
-/* .navbar-light .navbar-brand {
-  color: white;
-}
-.navbar-light .navbar-toggler span {
-  color: white;
-}
-.navbar-light .navbar-toggler {
-  color: white;
-  border-color: white;
+.navbar-light .navbar-brand {
+  font-family: "Metal Mania", cursive;
+  font-size: 2rem;
 }
 .navbar-light .navbar-nav .nav-link {
-  color: white;
-}  */
+  font-family: "MedievalSharp", cursive;
+  font-size: 1.75rem;
+  color: lightgreen;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
 .quote {
   background-image: url("https://i.imgur.com/wC8c5BN.jpg");
   background-size: cover;
@@ -87,9 +87,12 @@ section h3 {
   padding: 30px;
 }
 
+.display-4,
+.lead {
+  font-family: "Audiowide", cursive;
+}
+
 .card {
-  /* margin: 10px; */
-  /* border: solid white 2px; */
   background-color: #d0d0d0;
   border-radius: 10px;
   margin-bottom: 10px;
@@ -159,10 +162,6 @@ form .btn:hover {
   text-decoration: none;
 }
 
-/* form {
-  padding-top: 0px;
-} */
-
 .form-group {
   margin: 30px;
 }
@@ -189,6 +188,7 @@ form .btn:hover {
   color: white;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
+  font-family: "Changa", sans-serif;
 }
 #social-media a {
   width: 48px;
@@ -213,9 +213,8 @@ form .btn:hover {
 }
 .bottom {
   background-color: black;
-  /* background: linear-gradient(to bottom, #808080 2%, #000000 97%); */
+
   padding-top: 50px;
-  /* height: 350px; */
 }
 
 .bottom h5 {
@@ -278,11 +277,13 @@ ul {
     font-size: 4rem;
     text-shadow: -1px -1px 0 #fff, 1px -1px 0 #000, -1px 1px 0 #000,
       1px 1px 0 #000;
+    font-family: "Audiowide", cursive;
   }
 
   .carousel-caption p {
     text-transform: uppercase;
     font-size: 2rem;
+    font-family: "Audiowide", cursive;
   }
   .card img {
     height: 300px;
@@ -328,15 +329,7 @@ ul {
     color: white;
     font-size: 2.5rem;
   }
-  /* .portfolio-item__info {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0);
-    transition: all 1s;
-  }
-  .portfolio-item__info:hover {
-    background-color: rgba(0, 0, 0, 0.3);
-  } */
+
   .card img {
     height: 400px;
     width: auto;
