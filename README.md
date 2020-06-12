@@ -105,30 +105,31 @@ JQuery, Bootstrap
 
 ## Code Snippet
 
-function app(projectsArr) {
-console.log("app-projects", projectsArr);
-projectsArr.forEach((project) => {
-let $div = $("<div>").attr("class", "card");
-let $title = $("<h5>").text(project.title).attr("class", "card-title");
-let $img = $("<img>")
-.attr("src", project.image)
-.attr("class", "card-img-top");
-let $description = $("<p>")
-.text(project.description)
-.attr("class", "card-text");
-let $link = $("<a>")
-.text("Go")
-.attr("href", project.url)
-.attr("class", "btn btn-primary");
-$div.append($title, $img, $description, $link);
-    $(".work-container").append(\$div);
-});
+```function app(projectsArr) {
+  console.log("app-projects", projectsArr);
+  projectsArr.forEach((project) => {
+    let $div = $("<div>").attr("class", "card");
+    let $title = $("<h5>").text(project.title).attr("class", "card-title");
+    let $img = $("<img>")
+      .attr("src", project.image)
+      .attr("class", "card-img-top");
+    let $description = $("<p>")
+      .text(project.description)
+      .attr("class", "card-text");
+    let $link = $("<a>")
+      .text("Go")
+      .attr("href", project.url)
+      .attr("class", "btn btn-primary");
+    $div.append($title, $img, $description, $link);
+    $(".work-container").append($div);
+  });
 }
 
 <section>
         <h3 id="projects">My Projects</h3>
         <div class="work-container"></div>
       </section>
+```
 
 ## Issues and Resolutions
 
@@ -143,5 +144,9 @@ The one issue I did have was getting the <a> to link to my Google Sheets project
 #### SAMPLE.....
 
 NONE
-**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier  
+**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier
 **RESOLUTION**: Missing comma after first object in sources {} object
+
+```
+
+```
